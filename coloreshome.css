@@ -106,7 +106,7 @@ header a:hover{
         rgba(0,0,0,0.5)
 
     )
-    ,url("imagenes/taller1.png");
+    ,url("imagenes/taller1.webp");
     
 }
 
@@ -117,7 +117,7 @@ header a:hover{
         rgba(0,0,0,0.5)
 
     )
-    ,url("imagenes/taller2.png");
+    ,url("imagenes/taller2.jpg");
 }
 
 .carta:nth-child(3){
@@ -127,7 +127,7 @@ header a:hover{
         rgba(0,0,0,0.5)
 
     )
-    ,url("imagenes/taller3.png");
+    ,url("imagenes/taller3.jpg");
 }
 .carrousel{
     width: 100%;

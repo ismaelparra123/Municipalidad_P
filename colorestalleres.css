@@ -6,7 +6,6 @@ html{
 }
 body{
     margin: 0;
-    background-image: url('imagenes/fondologin.jpg');
 }
 
 h1{font-size: 3.5em;}
@@ -27,7 +26,7 @@ button{
 }
 
 button:hover{
-    background-color: rgb(53, 87, 132);
+    background-color: rgb(38, 62, 94);
 }
 
 .container{
@@ -69,60 +68,58 @@ header a{
 header a:hover{
     color: rgb(31, 41, 229);
 }
-.form-register {
-    width: 400px;
-    background: #2c4861;
-    padding: 30px;
+.presentacion{
+    height: 420px;
+    width: 50%;
+    display: flex;
     margin: auto;
-    margin-top: 100px;
-    border-radius: 4px;
-    font-family: 'calibri';
-    color: white;
+    border-radius: 7px;
+    box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.5);
+    overflow: hidden; /*donde esta el texto*/
+    box-sizing: border-box;
 }
-  
-.form-register h4 {
-    font-size: 22px;
-    margin-bottom: 20px;
+.presentacion .img{
+    width: 50%;
 }
-  
-.controls {
+.presentacion .img img{
     width: 100%;
-    background: #24303c;
-    padding: 10px;
-    border-radius: 4px;
-    margin-bottom: 16px;
-    border: 1px solid #ffffff;
-    font-family: 'calibri';
-    font-size: 18px;
-    color: white;
+    vertical-align: top;
 }
-  
-.form-register p {
-    height: 40px;
-    text-align: center;
-    font-size: 18px;
-    line-height: 40px;
+.producto-info{
+    width: 50%;
+    border-radius: 0 7px 10px 7px;
+    background: #fff;
 }
-  
-.form-register a {
-    color: white;
-    text-decoration: none;
-}
-  
-.form-register a:hover {
-    color: white;
-    text-decoration: underline;
-}
-  
-.form-register .botons {
+.producto-texto{
     width: 100%;
-    background: #1b50c4;
-    border: none;
-    padding: 12px;
-    color: white;
-    margin: 16px 0;
-    font-size: 16px;
 }
+.producto-texto h1{
+    margin-left: 38px;
+    padding-top: 52px;
+    font-size: 34px;
+    color: #e91e63;
+}
+.producto-texto h1, .precio-btn{
+    font-family: serif;
+}
+.producto-texto h2{
+    margin:  0 0 47px 38px;
+    font-size: 13px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    color: aqua;
+    letter-spacing:  .2em;
+}
+.producto-texto p{
+    height: 125px;
+    margin-left: 38px;
+    font-family: serif;
+    color: #e91e63;
+    line-height: 1.7em;
+}
+
+
+
 .row{
 	display: flex;
 	flex-wrap: wrap;
